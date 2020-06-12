@@ -1,0 +1,21 @@
+{
+  "name": "REST_API",
+  "version": "1.0.0",
+  "description": "Para modelos Cliente - Servidor. El servidor escucha las peticiones del cliente. El servidor devuelve datos al cliente desde una base de datos. La base de datos está conectada al servidor.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.0",
+    "underscore": "^1.10.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
